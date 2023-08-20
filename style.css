@@ -44,6 +44,12 @@ input{
 label{
     font-weight: bolder;
 }
+#error{
+    margin: 1rem auto;
+    font-size: large;
+    font-weight: 500;
+}
+
 #btn-check{
     color: white;
     background-color: var(--primary-color);
@@ -58,10 +64,10 @@ label{
     width: 80%;
     text-align: justify;
     border-collapse: collapse;
-    margin: 1rem auto;
+    margin: auto;
 }
 .change-table caption {
-    margin: 1rem auto;
+    margin: auto auto 0.5rem auto;
     font-size: x-large;
     font-weight: 600;
 }
