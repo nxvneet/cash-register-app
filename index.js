@@ -23,7 +23,7 @@ function validation() {
         }
     }
     else {
-        message("Invalid amount entered");
+        message("Invalid Amount Entered");
     }
 
 }
