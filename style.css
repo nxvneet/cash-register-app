@@ -45,7 +45,7 @@ label{
     font-weight: bolder;
 }
 #error{
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     font-size: large;
     font-weight: 500;
 }
@@ -67,7 +67,7 @@ label{
     margin: auto;
 }
 .change-table caption {
-    margin: auto auto 0.5rem auto;
+    margin: 1.5rem auto 0.5rem auto;
     font-size: x-large;
     font-weight: 600;
 }
@@ -77,4 +77,24 @@ th, td {
     border-collapse: collapse;
     padding: 0.4rem;
     text-align: left;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    font-size: large;
+    text-align: center;
+}
+.footer-list {
+    margin: 1rem;
+}
+a, img, li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 40px;
+    padding: 0.2rem;
 }
